@@ -1,0 +1,778 @@
+Processing subject: NOR_BCS001_LOY
+NOR_BCS001_LOY FREESURFER : Making Spline Interpolated Downsample to 1mm
+NOR_BCS001_LOY FREESURFER : Runnung autorecon1 steps with the exception of -skullstrip
+fs-check-version --s NOR_BCS001_LOY --o /var/folders/63/0swzhgln1hn5fy6rz_xd268h0000gn/T//tmp.Lcadqs
+Sat Feb  4 04:25:41 KST 2023
+
+setenv SUBJECTS_DIR /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer
+cd /Users/JunSeoHwang/diffusion-weighted-imaging/NOR
+/Applications/freesurfer/7.3.2/bin/fs-check-version --s NOR_BCS001_LOY --o /var/folders/63/0swzhgln1hn5fy6rz_xd268h0000gn/T//tmp.Lcadqs
+-rwxr-xr-x  1 root  wheel  18565 Aug  4  2022 /Applications/freesurfer/7.3.2/bin/fs-check-version
+
+freesurfer-darwin-macOS-7.3.2-20220804-6354275
+$Id$
+Darwin hwangjunseoui-MacBookAir.local 22.2.0 Darwin Kernel Version 22.2.0: Fri Nov 11 02:06:26 PST 2022; root:xnu-8792.61.2~4/RELEASE_ARM64_T8112 arm64
+pid 3133
+Current FS Version freesurfer-darwin-macOS-7.3.2-20220804-6354275
+Subject does not have a bstampfile, copying /Applications/freesurfer/7.3.2/build-stamp.txt
+Subject FS Version: freesurfer-darwin-macOS-7.3.2-20220804-6354275
+No constraints on version because REQ=UnSet and FsVerFile=NotThere
+#@#% fs-check-version match = 1
+fs-check-version Done
+INFO: SUBJECTS_DIR is /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer
+Actual FREESURFER_HOME /Applications/freesurfer/7.3.2
+Darwin hwangjunseoui-MacBookAir.local 22.2.0 Darwin Kernel Version 22.2.0: Fri Nov 11 02:06:26 PST 2022; root:xnu-8792.61.2~4/RELEASE_ARM64_T8112 arm64
+/Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY
+\n mri_convert /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/PreFreesurfer/T1w/T1w_acpc_dc_restore_1mm.nii.gz /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig/001.mgz \n
+mri_convert /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/PreFreesurfer/T1w/T1w_acpc_dc_restore_1mm.nii.gz /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig/001.mgz
+reading from /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/PreFreesurfer/T1w/T1w_acpc_dc_restore_1mm.nii.gz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 1, 0)
+k_ras = (0, 0, 1)
+writing to /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig/001.mgz...
+#--------------------------------------------
+#@# MotionCor Sat Feb  4 04:25:52 KST 2023
+Found 1 runs
+/Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig/001.mgz
+Checking for (invalid) multi-frame inputs...
+Only one run found so motion
+correction will not be performed. I'll
+copy the run to rawavg and continue.
+usage: sleep seconds
+\n cp /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig/001.mgz /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/rawavg.mgz \n
+\n mri_info /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/rawavg.mgz \n
+rawavg.mgz ========================================
+Volume information for /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/rawavg.mgz
+          type: MGH
+    dimensions: 181 x 217 x 181
+   voxel sizes: 1.000000, 1.000000, 1.000000
+          type: FLOAT (3)
+           fov: 217.000
+           dof: 1
+        xstart: -90.5, xend: 90.5
+        ystart: -108.5, yend: 108.5
+        zstart: -90.5, zend: 90.5
+            TR: 2400.00 msec, TE: 0.00 msec, TI: 0.00 msec, flip angle: 0.00 degrees
+       nframes: 1
+       PhEncDir: UNKNOWN
+       FieldStrength: 0.000000
+ras xform present
+    xform info: x_r =  -1.0000, y_r =   0.0000, z_r =   0.0000, c_r =    -0.5000
+              : x_a =   0.0000, y_a =   1.0000, z_a =   0.0000, c_a =   -17.5000
+              : x_s =   0.0000, y_s =   0.0000, z_s =   1.0000, c_s =    18.5000
+
+talairach xfm :
+Orientation   : LAS
+Primary Slice Direction: axial
+
+voxel to ras transform:
+               -1.0000   0.0000   0.0000    90.0000
+                0.0000   1.0000   0.0000  -126.0000
+                0.0000   0.0000   1.0000   -72.0000
+                0.0000   0.0000   0.0000     1.0000
+
+voxel-to-ras determinant -1
+
+ras to voxel transform:
+               -1.0000  -0.0000  -0.0000    90.0000
+               -0.0000   1.0000  -0.0000   126.0000
+               -0.0000  -0.0000   1.0000    72.0000
+               -0.0000  -0.0000  -0.0000     1.0000
+/Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY
+\n mri_convert /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/rawavg.mgz /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig.mgz --conform \n
+mri_convert /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/rawavg.mgz /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig.mgz --conform
+reading from /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/rawavg.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 1, 0)
+k_ras = (0, 0, 1)
+changing data type from float to uchar (noscale = 0)...
+MRIchangeType: Building histogram 6.91777e-31 641.219 1000, flo=0, fhi=0.999, dest_type=0
+Reslicing using trilinear interpolation
+writing to /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig.mgz...
+\n mri_add_xform_to_header -c /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/transforms/talairach.xfm /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig.mgz /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig.mgz \n
+INFO: extension is mgz
+\n mri_info /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig.mgz \n
+orig.mgz ========================================
+Volume information for /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/orig.mgz
+          type: MGH
+    dimensions: 256 x 256 x 256
+   voxel sizes: 1.000000, 1.000000, 1.000000
+          type: UCHAR (0)
+           fov: 256.000
+           dof: 1
+        xstart: -128.0, xend: 128.0
+        ystart: -128.0, yend: 128.0
+        zstart: -128.0, zend: 128.0
+            TR: 2400.00 msec, TE: 0.00 msec, TI: 0.00 msec, flip angle: 0.00 degrees
+       nframes: 1
+       PhEncDir: UNKNOWN
+       FieldStrength: 0.000000
+ras xform present
+    xform info: x_r =  -1.0000, y_r =   0.0000, z_r =   0.0000, c_r =    -0.5000
+              : x_a =   0.0000, y_a =   0.0000, z_a =   1.0000, c_a =   -17.5000
+              : x_s =   0.0000, y_s =  -1.0000, z_s =   0.0000, c_s =    18.5000
+
+talairach xfm : /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/transforms/talairach.xfm
+Orientation   : LIA
+Primary Slice Direction: coronal
+
+voxel to ras transform:
+               -1.0000   0.0000   0.0000   127.5000
+                0.0000   0.0000   1.0000  -145.5000
+                0.0000  -1.0000   0.0000   146.5000
+                0.0000   0.0000   0.0000     1.0000
+
+voxel-to-ras determinant -1
+
+ras to voxel transform:
+               -1.0000  -0.0000  -0.0000   127.5000
+               -0.0000  -0.0000  -1.0000   146.5000
+               -0.0000   1.0000  -0.0000   145.5000
+               -0.0000  -0.0000  -0.0000     1.0000
+#--------------------------------------------
+#@# Talairach Sat Feb  4 04:25:56 KST 2023
+/Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+\n mri_nu_correct.mni --no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50 \n
+/usr/bin/bc
+/Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+/Applications/freesurfer/7.3.2/bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50
+nIters 1
+FreeSurferEnv.csh 7.3.2
+Darwin hwangjunseoui-MacBookAir.local 22.2.0 Darwin Kernel Version 22.2.0: Fri Nov 11 02:06:26 PST 2022; root:xnu-8792.61.2~4/RELEASE_ARM64_T8112 arm64
+Sat Feb  4 04:25:57 KST 2023
+tmpdir is ./tmp.mri_nu_correct.mni.3543
+cd /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.3543/nu0.mgz --dtype uchar
+#--------------------------------------------
+#@# Nu Intensity Correction Sat Feb  4 04:27:54 KST 2023
+\n mri_nu_correct.mni --i orig.mgz --o nu.mgz --uchar transforms/talairach.xfm --n 2 --ants-n4 \n
+/usr/bin/bc
+/Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+/Applications/freesurfer/7.3.2/bin/mri_nu_correct.mni
+--i orig.mgz --o nu.mgz --uchar transforms/talairach.xfm --n 2 --ants-n4
+nIters 2
+FreeSurferEnv.csh 7.3.2
+Darwin hwangjunseoui-MacBookAir.local 22.2.0 Darwin Kernel Version 22.2.0: Fri Nov 11 02:06:26 PST 2022; root:xnu-8792.61.2~4/RELEASE_ARM64_T8112 arm64
+Sat Feb  4 04:27:54 KST 2023
+tmpdir is ./tmp.mri_nu_correct.mni.3778
+cd /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.3778/nu0.mgz --dtype uchar
+AntsN4BiasFieldCorrectionFs done
+mri_binarize --i ./tmp.mri_nu_correct.mni.3778/nu0.mgz --min -1 --o ./tmp.mri_nu_correct.mni.3778/ones.mgz
+
+7.3.2
+cwd /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+cmdline mri_binarize --i ./tmp.mri_nu_correct.mni.3778/nu0.mgz --min -1 --o ./tmp.mri_nu_correct.mni.3778/ones.mgz
+sysname  Darwin
+hostname hwangjunseoui-MacBookAir.local
+machine  x86_64
+user     JunSeoHwang
+
+input      ./tmp.mri_nu_correct.mni.3778/nu0.mgz
+frame      0
+nErode3d   0
+nErode2d   0
+output     ./tmp.mri_nu_correct.mni.3778/ones.mgz
+Binarizing based on threshold
+min        -1
+max        +infinity
+binval        1
+binvalnot     0
+fstart = 0, fend = 0, nframes = 1
+Found 16777216 values in range
+Counting number of voxels in first frame
+Found 16777215 voxels in final mask
+Writing output to ./tmp.mri_nu_correct.mni.3778/ones.mgz
+Count: 16777215 16777215.000000 16777216 99.999994
+mri_binarize done
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.3778/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.3778/sum.junk --avgwf ./tmp.mri_nu_correct.mni.3778/input.mean.dat
+
+7.3.2
+cwd
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.3778/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.3778/sum.junk --avgwf ./tmp.mri_nu_correct.mni.3778/input.mean.dat
+sysname  Darwin
+hostname hwangjunseoui-MacBookAir.local
+machine  x86_64
+user     JunSeoHwang
+whitesurfname  white
+UseRobust  0
+Loading ./tmp.mri_nu_correct.mni.3778/ones.mgz
+Loading orig.mgz
+Voxel Volume is 1 mm^3
+Generating list of segmentation ids
+Found   1 segmentations
+Computing statistics for each segmentation
+
+Reporting on   1 segmentations
+Using PrintSegStat
+Computing spatial average of each frame
+
+Writing to ./tmp.mri_nu_correct.mni.3778/input.mean.dat
+mri_segstats done
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.3778/ones.mgz --i ./tmp.mri_nu_correct.mni.3778/nu0.mgz --sum ./tmp.mri_nu_correct.mni.3778/sum.junk --avgwf ./tmp.mri_nu_correct.mni.3778/output.mean.dat
+
+7.3.2
+cwd
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.3778/ones.mgz --i ./tmp.mri_nu_correct.mni.3778/nu0.mgz --sum ./tmp.mri_nu_correct.mni.3778/sum.junk --avgwf ./tmp.mri_nu_correct.mni.3778/output.mean.dat
+sysname  Darwin
+hostname hwangjunseoui-MacBookAir.local
+machine  x86_64
+user     JunSeoHwang
+whitesurfname  white
+UseRobust  0
+Loading ./tmp.mri_nu_correct.mni.3778/ones.mgz
+Loading ./tmp.mri_nu_correct.mni.3778/nu0.mgz
+Voxel Volume is 1 mm^3
+Generating list of segmentation ids
+Found   1 segmentations
+Computing statistics for each segmentation
+
+Reporting on   1 segmentations
+Using PrintSegStat
+Computing spatial average of each frame
+
+Writing to ./tmp.mri_nu_correct.mni.3778/output.mean.dat
+mri_segstats done
+mris_calc -o ./tmp.mri_nu_correct.mni.3778/nu0.mgz ./tmp.mri_nu_correct.mni.3778/nu0.mgz mul 1.01674366675486060028
+Saving result to './tmp.mri_nu_correct.mni.3778/nu0.mgz' (type = MGH )                       [ ok ]
+mri_convert ./tmp.mri_nu_correct.mni.3778/nu0.mgz nu.mgz --like orig.mgz
+mri_convert ./tmp.mri_nu_correct.mni.3778/nu0.mgz nu.mgz --like orig.mgz
+reading from ./tmp.mri_nu_correct.mni.3778/nu0.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+INFO: transform src into the like-volume: orig.mgz
+writing to nu.mgz...
+mri_make_uchar nu.mgz transforms/talairach.xfm nu.mgz
+type change took 0 minutes and 3 seconds.
+FIRST_PERCENTILE 0.010000
+WM_PERCENTILE    0.900000
+MAX_R 50.000000
+i1 = 10, i2 = 61
+#mri_make_uchar# mapping 26 157 to  3 110  :  b -18.5186 m 0.817959 : thresh 22.6401 maxsat 334.392 : nzero 13777254 nsat 0
+
+
+Sat Feb  4 04:29:37 KST 2023
+mri_nu_correct.mni done
+\n mri_add_xform_to_header -c /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/transforms/talairach.xfm nu.mgz nu.mgz \n
+INFO: extension is mgz
+AntsN4BiasFieldCorrectionFs done
+mri_convert ./tmp.mri_nu_correct.mni.3543/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+mri_convert ./tmp.mri_nu_correct.mni.3543/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+reading from ./tmp.mri_nu_correct.mni.3543/nu0.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+INFO: transform src into the like-volume: orig.mgz
+writing to orig_nu.mgz...
+
+
+Sat Feb  4 04:27:30 KST 2023
+mri_nu_correct.mni done
+\n talairach_avi --i orig_nu.mgz --xfm transforms/talairach.auto.xfm \n
+talairach_avi log file is transforms/talairach_avi.log...
+mv -f /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/talsrcimg_to_711-2C_as_mni_average_305_t4_vox2vox.txt /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/transforms/talsrcimg_to_711-2C_as_mni_average_305_t4_vox2vox.txt
+Started at Sat Feb 4 04:27:31 KST 2023
+Ended   at Sat Feb  4 04:27:52 KST 2023
+talairach_avi done
+\n cp transforms/talairach.auto.xfm transforms/talairach.xfm \n
+lta_convert --src orig.mgz --trg /Applications/freesurfer/7.3.2/average/mni305.cor.mgz --inxfm transforms/talairach.xfm --outlta transforms/talairach.xfm.lta --subject fsaverage --ltavox2vox
+7.3.2
+
+--src: orig.mgz src image (geometry).
+--trg: /Applications/freesurfer/7.3.2/average/mni305.cor.mgz trg image (geometry).
+--inmni: transforms/talairach.xfm input MNI/XFM transform.
+--outlta: transforms/talairach.xfm.lta output LTA.
+--s: fsaverage subject name
+--ltavox2vox: output LTA as VOX_TO_VOX transform.
+ LTA read, type : 1
+ 1.06252  -0.02904  -0.01054  -0.81058;
+ 0.12287   1.22472   0.00450   2.33170;
+-0.02678  -0.12459   1.22501  -2.06091;
+ 0.00000   0.00000   0.00000   1.00000;
+setting subject to fsaverage
+Writing  LTA to file transforms/talairach.xfm.lta...
+lta_convert successful.
+~/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/transforms ~/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+~/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+#--------------------------------------------
+#@# Intensity Normalization Sat Feb  4 04:29:38 KST 2023
+/Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+\n mri_normalize -g 1 -seed 1234 -mprage nu.mgz T1.mgz \n
+using max gradient = 1.000
+setting seed for random number genererator to 1234
+assuming input volume is MGH (Van der Kouwe) MP-RAGE
+reading mri_src from nu.mgz...
+normalizing image...
+NOT doing gentle normalization with control points/label
+talairach transform
+ 1.06252  -0.02904  -0.01054  -0.81058;
+ 0.12287   1.22472   0.00450   2.33170;
+-0.02678  -0.12459   1.22501  -2.06091;
+ 0.00000   0.00000   0.00000   1.00000;
+processing without aseg, no1d=0
+MRInormInit():
+INFO: Modifying talairach volume c_(r,a,s) based on average_305
+MRInormalize():
+MRIsplineNormalize(): npeaks = 20
+Starting OpenSpline(): npoints = 20
+building Voronoi diagram...
+performing soap bubble smoothing, sigma = 8...
+
+Iterating 2 times
+---------------------------------
+3d normalization pass 1 of 2
+white matter peak found at 110
+white matter peak found at 110
+gm peak at 69 (69), valley at 57 (57)
+csf peak at 16, setting threshold to 51
+building Voronoi diagram...
+performing soap bubble smoothing, sigma = 8...
+---------------------------------
+3d normalization pass 2 of 2
+white matter peak found at 110
+white matter peak found at 110
+gm peak at 69 (69), valley at 41 (41)
+csf peak at 16, setting threshold to 51
+building Voronoi diagram...
+performing soap bubble smoothing, sigma = 8...
+Done iterating ---------------------------------
+writing output to T1.mgz
+3D bias adjustment took 1 minutes and 25 seconds.
+
+Started at Sat Feb 4 04:25:41 KST 2023
+Ended   at Sat Feb 4 04:31:04 KST 2023
+#@#%# recon-all-run-time-hours 0.090
+recon-all -s NOR_BCS001_LOY finished without error at Sat Feb  4 04:31:04 KST 2023
+done
+NOR_BCS001_LOY FREESURFER : Generating Brain Mask
+mri_convert NOR_BCS001_LOY/Preprocess_Structure/PreFreesurfer/T1w/T1w_acpc_dc_restore_brain_1mm.nii.gz NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/brainmask.mgz --conform
+reading from NOR_BCS001_LOY/Preprocess_Structure/PreFreesurfer/T1w/T1w_acpc_dc_restore_brain_1mm.nii.gz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 1, 0)
+k_ras = (0, 0, 1)
+changing data type from float to uchar (noscale = 0)...
+MRIchangeType: Building histogram 0 847.542 1000, flo=0, fhi=0.999, dest_type=0
+Reslicing using trilinear interpolation
+writing to NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/brainmask.mgz...
+using MR volume NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/brainmask.mgz to mask input volume...
+reading 1 input volumes...
+logging results to talairach_with_skull.log
+reading '/Applications/freesurfer/7.3.2/average/RB_all_2008-03-26.gca'...
+error: No such file or directory
+error: GCAread(/Applications/freesurfer/7.3.2/average/RB_all_2008-03-26.gca): could not open file
+GCAread took 0 minutes and 0 seconds.
+error: No such file or directory
+error: mri_em_register: could not open GCA /Applications/freesurfer/7.3.2/average/RB_all_2008-03-26.gca.
+
+
+Mode:          T1 normalized volume
+Mode:          Use the information of atlas (default parms, --help for details)
+error: No such file or directory
+error: GCAread(/Applications/freesurfer/7.3.2/average/RB_all_withskull_2008-03-26.gca): could not open file
+
+mri_watershed Error: Cannot read the atlas
+
+cp: NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/brainmask.auto.mgz: No such file or directory
+mv: rename talairach_with_skull.log to NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/talairach_with_skull.log: No such file or directory
+NOR_BCS001_LOY FREESURFER : Runnung autorecon2 steps with few exceptions
+fs-check-version --s NOR_BCS001_LOY --o /var/folders/63/0swzhgln1hn5fy6rz_xd268h0000gn/T//tmp.DzJGNN
+Sat Feb  4 04:31:06 KST 2023
+
+setenv SUBJECTS_DIR /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer
+cd /Users/JunSeoHwang/diffusion-weighted-imaging/NOR
+/Applications/freesurfer/7.3.2/bin/fs-check-version --s NOR_BCS001_LOY --o /var/folders/63/0swzhgln1hn5fy6rz_xd268h0000gn/T//tmp.DzJGNN
+-rwxr-xr-x  1 root  wheel  18565 Aug  4  2022 /Applications/freesurfer/7.3.2/bin/fs-check-version
+
+freesurfer-darwin-macOS-7.3.2-20220804-6354275
+$Id$
+Darwin hwangjunseoui-MacBookAir.local 22.2.0 Darwin Kernel Version 22.2.0: Fri Nov 11 02:06:26 PST 2022; root:xnu-8792.61.2~4/RELEASE_ARM64_T8112 arm64
+pid 3998
+Current FS Version freesurfer-darwin-macOS-7.3.2-20220804-6354275
+bstampfile exists /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/scripts/build-stamp.txt
+Subject FS Version: freesurfer-darwin-macOS-7.3.2-20220804-6354275
+No constraints on version because REQ=UnSet and FsVerFile=NotThere
+#@#% fs-check-version match = 1
+fs-check-version Done
+INFO: SUBJECTS_DIR is /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer
+Actual FREESURFER_HOME /Applications/freesurfer/7.3.2
+-rw-rw-r--@ 1 JunSeoHwang  staff  45724 Feb  4 04:31 /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/scripts/recon-all.log
+Darwin hwangjunseoui-MacBookAir.local 22.2.0 Darwin Kernel Version 22.2.0: Fri Nov 11 02:06:26 PST 2022; root:xnu-8792.61.2~4/RELEASE_ARM64_T8112 arm64
+~/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/transforms ~/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY
+~/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY
+#-------------------------------------
+#@# EM Registration Sat Feb  4 04:31:09 KST 2023
+/Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+\n mri_em_register -uns 3 -mask brainmask.mgz nu.mgz /Applications/freesurfer/7.3.2/average/RB_all_2020-01-02.gca transforms/talairach.lta \n
+setting unknown_nbr_spacing = 3
+using MR volume brainmask.mgz to mask input volume...
+reading 1 input volumes...
+logging results to talairach.log
+reading '/Applications/freesurfer/7.3.2/average/RB_all_2020-01-02.gca'...
+GCAread took 0 minutes and 1 seconds.
+average std = 7.2   using min determinant for regularization = 5.2
+0 singular and 884 ill-conditioned covariance matrices regularized
+reading 'nu.mgz'...
+MRImask(): AllowDiffGeom = 1
+MRImask(): AllowDiffGeom = 1
+MRImask(): AllowDiffGeom = 1
+MRImask(): AllowDiffGeom = 1
+MRImask(): AllowDiffGeom = 1
+freeing gibbs priors...done.
+accounting for voxel sizes in initial transform
+bounding unknown intensity as < 5.9 or > 519.0
+total sample mean = 79.1 (1017 zeros)
+************************************************
+spacing=8, using 2841 sample points, tol=1.00e-05...
+************************************************
+register_mri: find_optimal_transform
+find_optimal_transform: nsamples 2841, passno 0, spacing 8
+resetting wm mean[0]: 98 --> 107
+resetting gm mean[0]: 61 --> 61
+input volume #1 is the most T1-like
+using real data threshold=30.4
+skull bounding box = (58, 80, 58) --> (199, 189, 197)
+finding center of left hemi white matter
+using (105, 116, 128) as brain centroid of Right_Cerebral_White_Matter...
+MRImask(): AllowDiffGeom = 1
+mean wm in atlas = 107, using box (88,103,111) --> (122, 129,145) to find MRI wm
+before smoothing, mri peak at 110
+robust fit to distribution - 109 +- 3.6
+after smoothing, mri peak at 109, scaling input intensities by 0.982
+scaling channel 0 by 0.981651
+initial log_p = -4.529
+************************************************
+First Search limited to translation only.
+************************************************
+max log p =    -4.212943 @ (-10.526, -10.526, -10.526)
+max log p =    -3.883337 @ (5.263, -15.789, -5.263)
+max log p =    -3.808214 @ (2.632, 2.632, -2.632)
+max log p =    -3.740133 @ (1.316, 1.316, -1.316)
+max log p =    -3.740133 @ (0.000, 0.000, 0.000)
+max log p =    -3.735256 @ (0.329, 0.987, 0.329)
+max log p =    -3.735256 @ (0.000, 0.000, 0.000)
+max log p =    -3.735256 @ (0.000, 0.000, 0.000)
+Found translation: (-1.0, -21.4, -19.4): log p = -3.735
+****************************************
+Nine parameter search.  iteration 0 nscales = 0 ...
+****************************************
+Result so far: scale 1.000: max_log_p=-3.553, old_max_log_p =-3.735 (thresh=-3.7)
+ 1.00000   0.00000   0.00000  -0.98685;
+ 0.00000   1.15000   0.00000  -42.48236;
+ 0.00000   0.00000   1.06375  -27.36574;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 41 seconds.
+****************************************
+Nine parameter search.  iteration 1 nscales = 0 ...
+****************************************
+Result so far: scale 1.000: max_log_p=-3.537, old_max_log_p =-3.553 (thresh=-3.5)
+ 1.00000   0.00000   0.00000  -0.98685;
+ 0.00000   1.15000   0.00000  -42.48236;
+ 0.00000   0.00000   1.14353  -37.32474;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 41 seconds.
+****************************************
+Nine parameter search.  iteration 2 nscales = 0 ...
+****************************************
+Result so far: scale 1.000: max_log_p=-3.537, old_max_log_p =-3.537 (thresh=-3.5)
+ 1.00000   0.00000   0.00000  -0.98685;
+ 0.00000   1.15000   0.00000  -42.48236;
+ 0.00000   0.00000   1.14353  -37.32474;
+ 0.00000   0.00000   0.00000   1.00000;
+reducing scale to 0.2500
+iteration took 0 minutes and 41 seconds.
+****************************************
+Nine parameter search.  iteration 3 nscales = 1 ...
+****************************************
+Result so far: scale 0.250: max_log_p=-3.463, old_max_log_p =-3.537 (thresh=-3.5)
+ 0.99946  -0.03765  -0.00122   4.53042;
+ 0.03330   1.17031  -0.03810  -44.83879;
+ 0.00210   0.03684   1.12149  -40.02427;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 40 seconds.
+****************************************
+Nine parameter search.  iteration 4 nscales = 1 ...
+****************************************
+Result so far: scale 0.250: max_log_p=-3.453, old_max_log_p =-3.463 (thresh=-3.5)
+ 0.99946  -0.03765  -0.00122   4.53042;
+ 0.03330   1.17031  -0.03810  -44.83879;
+ 0.00198   0.03480   1.05919  -31.94524;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 40 seconds.
+****************************************
+Nine parameter search.  iteration 5 nscales = 1 ...
+****************************************
+Result so far: scale 0.250: max_log_p=-3.453, old_max_log_p =-3.453 (thresh=-3.4)
+ 0.99946  -0.03765  -0.00122   4.53042;
+ 0.03330   1.17031  -0.03810  -44.83879;
+ 0.00198   0.03480   1.05919  -31.94524;
+ 0.00000   0.00000   0.00000   1.00000;
+reducing scale to 0.0625
+iteration took 0 minutes and 40 seconds.
+****************************************
+Nine parameter search.  iteration 6 nscales = 2 ...
+****************************************
+Result so far: scale 0.062: max_log_p=-3.431, old_max_log_p =-3.453 (thresh=-3.4)
+ 1.00320  -0.02796   0.00711   1.64298;
+ 0.02532   1.17437  -0.04696  -42.82258;
+-0.00590   0.04470   1.05882  -31.81537;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 39 seconds.
+****************************************
+Nine parameter search.  iteration 7 nscales = 2 ...
+****************************************
+Result so far: scale 0.062: max_log_p=-3.431, old_max_log_p =-3.431 (thresh=-3.4)
+ 1.00288  -0.03729   0.01608   1.87493;
+ 0.03348   1.17443  -0.03817  -45.43621;
+-0.01432   0.03532   1.05908  -28.98727;
+ 0.00000   0.00000   0.00000   1.00000;
+min search scale 0.025000 reached
+***********************************************
+Computing MAP estimate using 2841 samples...
+***********************************************
+dt = 5.00e-06, momentum=0.80, tol=1.00e-05
+l_intensity = 1.0000
+Aligning input volume to GCA...
+Transform matrix
+ 1.00288  -0.03729   0.01608   1.87493;
+ 0.03348   1.17443  -0.03817  -45.43621;
+-0.01432   0.03532   1.05908  -28.98727;
+ 0.00000   0.00000   0.00000   1.00000;
+nsamples 2841
+Quasinewton: input matrix
+ 1.00288  -0.03729   0.01608   1.87493;
+ 0.03348   1.17443  -0.03817  -45.43621;
+-0.01432   0.03532   1.05908  -28.98727;
+ 0.00000   0.00000   0.00000   1.00000;
+ IFLAG= -1  LINE SEARCH FAILED. SEE DOCUMENTATION OF ROUTINE MCSRCH ERROR RETURN OF LINE SEARCH: INFO= 4 POSSIBLE CAUSES: FUNCTION OR GRADIENT ARE INCORRECT OR INCORRECT TOLERANCESoutof QuasiNewtonEMA: 010: -log(p) =   -0.0  tol 0.000010
+Resulting transform:
+ 1.00288  -0.03729   0.01608   1.87493;
+ 0.03348   1.17443  -0.03817  -45.43621;
+-0.01432   0.03532   1.05908  -28.98727;
+ 0.00000   0.00000   0.00000   1.00000;
+
+pass 1, spacing 8: log(p) = -3.431 (old=-4.529)
+transform before final EM align:
+ 1.00288  -0.03729   0.01608   1.87493;
+ 0.03348   1.17443  -0.03817  -45.43621;
+-0.01432   0.03532   1.05908  -28.98727;
+ 0.00000   0.00000   0.00000   1.00000;
+
+**************************************************
+ EM alignment process ...
+ Computing final MAP estimate using 315638 samples.
+**************************************************
+dt = 5.00e-06, momentum=0.80, tol=1.00e-07
+l_intensity = 1.0000
+Aligning input volume to GCA...
+Transform matrix
+ 1.00288  -0.03729   0.01608   1.87493;
+ 0.03348   1.17443  -0.03817  -45.43621;
+-0.01432   0.03532   1.05908  -28.98727;
+ 0.00000   0.00000   0.00000   1.00000;
+nsamples 315638
+Quasinewton: input matrix
+ 1.00288  -0.03729   0.01608   1.87493;
+ 0.03348   1.17443  -0.03817  -45.43621;
+-0.01432   0.03532   1.05908  -28.98727;
+ 0.00000   0.00000   0.00000   1.00000;
+ IFLAG= -1  LINE SEARCH FAILED. SEE DOCUMENTATION OF ROUTINE MCSRCH ERROR RETURN OF LINE SEARCH: INFO= 6 POSSIBLE CAUSES: FUNCTION OR GRADIENT ARE INCORRECT OR INCORRECT TOLERANCESoutof QuasiNewtonEMA: 012: -log(p) =    3.9  tol 0.000000
+final transform:
+ 1.00288  -0.03729   0.01608   1.87493;
+ 0.03348   1.17443  -0.03817  -45.43621;
+-0.01432   0.03532   1.05908  -28.98727;
+ 0.00000   0.00000   0.00000   1.00000;
+
+writing output transformation to transforms/talairach.lta...
+#VMPC# mri_em_register VmPeak  0
+FSRUNTIME@ mri_em_register  0.0989 hours 1 threads
+registration took 5 minutes and 56 seconds.
+#--------------------------------------
+#@# CA Normalize Sat Feb  4 04:37:05 KST 2023
+/Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+\n mri_ca_normalize -c ctrl_pts.mgz -mask brainmask.mgz nu.mgz /Applications/freesurfer/7.3.2/average/RB_all_2020-01-02.gca transforms/talairach.lta norm.mgz \n
+writing control point volume to ctrl_pts.mgz
+using MR volume brainmask.mgz to mask input volume...
+reading 1 input volume
+reading atlas from '/Applications/freesurfer/7.3.2/average/RB_all_2020-01-02.gca'...
+reading transform from 'transforms/talairach.lta'...
+reading input volume from nu.mgz...
+resetting wm mean[0]: 98 --> 107
+resetting gm mean[0]: 61 --> 61
+input volume #1 is the most T1-like
+using real data threshold=30.4
+skull bounding box = (58, 80, 58) --> (199, 189, 197)
+finding center of left hemi white matter
+using (105, 116, 128) as brain centroid of Right_Cerebral_White_Matter...
+mean wm in atlas = 107, using box (88,103,111) --> (122, 129,145) to find MRI wm
+before smoothing, mri peak at 110
+robust fit to distribution - 109 +- 3.6
+after smoothing, mri peak at 109, scaling input intensities by 0.982
+scaling channel 0 by 0.981651
+using 246437 sample points...
+INFO: compute sample coordinates transform
+ 1.00288  -0.03729   0.01608   1.87493;
+ 0.03348   1.17443  -0.03817  -45.43621;
+-0.01432   0.03532   1.05908  -28.98727;
+ 0.00000   0.00000   0.00000   1.00000;
+INFO: transform used
+finding control points in Left_Cerebral_White_Matter....
+found 40230 control points for structure...
+bounding box (128, 83, 49) --> (194, 184, 208)
+Left_Cerebral_White_Matter: limiting intensities to 94.0 --> 132.0
+0 of 6823 (0.0%) samples deleted
+finding control points in Right_Cerebral_White_Matter....
+found 39478 control points for structure...
+bounding box (63, 83, 49) --> (128, 187, 207)
+Right_Cerebral_White_Matter: limiting intensities to 93.0 --> 132.0
+1 of 7204 (0.0%) samples deleted
+finding control points in Left_Cerebellum_White_Matter....
+found 3105 control points for structure...
+bounding box (130, 152, 69) --> (179, 191, 120)
+Left_Cerebellum_White_Matter: limiting intensities to 94.0 --> 132.0
+0 of 362 (0.0%) samples deleted
+finding control points in Right_Cerebellum_White_Matter....
+found 2710 control points for structure...
+bounding box (85, 152, 66) --> (129, 192, 121)
+Right_Cerebellum_White_Matter: limiting intensities to 94.0 --> 132.0
+0 of 461 (0.0%) samples deleted
+finding control points in Brain_Stem....
+found 3475 control points for structure...
+bounding box (112, 149, 102) --> (147, 207, 131)
+Brain_Stem: limiting intensities to 92.0 --> 132.0
+1 of 573 (0.2%) samples deleted
+using 15423 total control points for intensity normalization...
+bias field = 0.979 +- 0.068
+33 of 15421 control points discarded
+finding control points in Left_Cerebral_White_Matter....
+found 40230 control points for structure...
+bounding box (128, 83, 49) --> (194, 184, 208)
+Left_Cerebral_White_Matter: limiting intensities to 89.0 --> 132.0
+1 of 6902 (0.0%) samples deleted
+finding control points in Right_Cerebral_White_Matter....
+found 39478 control points for structure...
+bounding box (63, 83, 49) --> (128, 187, 207)
+Right_Cerebral_White_Matter: limiting intensities to 88.0 --> 132.0
+2 of 7307 (0.0%) samples deleted
+finding control points in Left_Cerebellum_White_Matter....
+found 3105 control points for structure...
+bounding box (130, 152, 69) --> (179, 191, 120)
+Left_Cerebellum_White_Matter: limiting intensities to 88.0 --> 132.0
+38 of 411 (9.2%) samples deleted
+finding control points in Right_Cerebellum_White_Matter....
+found 2710 control points for structure...
+bounding box (85, 152, 66) --> (129, 192, 121)
+Right_Cerebellum_White_Matter: limiting intensities to 88.0 --> 132.0
+42 of 515 (8.2%) samples deleted
+finding control points in Brain_Stem....
+found 3475 control points for structure...
+bounding box (112, 149, 102) --> (147, 207, 131)
+Brain_Stem: limiting intensities to 88.0 --> 132.0
+86 of 676 (12.7%) samples deleted
+using 15811 total control points for intensity normalization...
+bias field = 1.043 +- 0.053
+31 of 15538 control points discarded
+finding control points in Left_Cerebral_White_Matter....
+found 40230 control points for structure...
+bounding box (128, 83, 49) --> (194, 184, 208)
+Left_Cerebral_White_Matter: limiting intensities to 91.0 --> 132.0
+1 of 6867 (0.0%) samples deleted
+finding control points in Right_Cerebral_White_Matter....
+found 39478 control points for structure...
+bounding box (63, 83, 49) --> (128, 187, 207)
+Right_Cerebral_White_Matter: limiting intensities to 90.0 --> 132.0
+5 of 7307 (0.1%) samples deleted
+finding control points in Left_Cerebellum_White_Matter....
+found 3105 control points for structure...
+bounding box (130, 152, 69) --> (179, 191, 120)
+Left_Cerebellum_White_Matter: limiting intensities to 88.0 --> 132.0
+177 of 422 (41.9%) samples deleted
+finding control points in Right_Cerebellum_White_Matter....
+found 2710 control points for structure...
+bounding box (85, 152, 66) --> (129, 192, 121)
+Right_Cerebellum_White_Matter: limiting intensities to 88.0 --> 132.0
+272 of 522 (52.1%) samples deleted
+finding control points in Brain_Stem....
+found 3475 control points for structure...
+bounding box (112, 149, 102) --> (147, 207, 131)
+Brain_Stem: limiting intensities to 88.0 --> 132.0
+234 of 701 (33.4%) samples deleted
+using 15819 total control points for intensity normalization...
+bias field = 1.036 +- 0.042
+26 of 14991 control points discarded
+writing normalized volume to norm.mgz...
+writing control points to ctrl_pts.mgz
+freeing GCA...done.
+normalization took 0 minutes and 45 seconds.
+#--------------------------------------
+#@# SubCort Seg Sat Feb  4 04:37:50 KST 2023
+\n mri_ca_label -relabel_unlikely 9 .3 -prior 0.5 -align norm.mgz transforms/talairach.m3z /Applications/freesurfer/7.3.2/average/RB_all_2020-01-02.gca aseg.auto_noCCseg.mgz \n
+sysname  Darwin
+hostname hwangjunseoui-MacBookAir.local
+machine  x86_64
+
+setenv SUBJECTS_DIR /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer
+cd /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri
+mri_ca_label -relabel_unlikely 9 .3 -prior 0.5 -align norm.mgz transforms/talairach.m3z /Applications/freesurfer/7.3.2/average/RB_all_2020-01-02.gca aseg.auto_noCCseg.mgz
+
+relabeling unlikely voxels with window_size = 9 and prior threshold 0.30
+using Gibbs prior factor = 0.500
+renormalizing sequences with structure alignment, equivalent to:
+	-renormalize
+	-renormalize_mean 0.500
+	-regularize 0.500
+Do not have OpenMP
+reading 1 input volumes
+reading classifier array from /Applications/freesurfer/7.3.2/average/RB_all_2020-01-02.gca
+reading input volume from norm.mgz
+average std[0] = 7.2
+reading transform from transforms/talairach.m3z
+ERROR: cannot find or read transforms/talairach.m3z
+error: No such file or directory
+error: transforms/talairach.m3z: could not open transform
+Darwin hwangjunseoui-MacBookAir.local 22.2.0 Darwin Kernel Version 22.2.0: Fri Nov 11 02:06:26 PST 2022
+
+
+; root:xnu-8792.61.2~4/RELEASE_ARM64_T8112 arm64
+
+recon-all -s NOR_BCS001_LOY exited with ERRORS at Sat Feb  4 04:37:59 KST 2023
+
+For more details, see the log file /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/scripts/recon-all.log
+To report a problem, see http://surfer.nmr.mgh.harvard.edu/fswiki/BugReporting
+
+NOR_BCS001_LOY : FREESURFER Processing High Resolution WM and Fine Tuning T2w to T1w Registration
+
+ START: FreeSurferHighResWhite
+cp: NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/surf/lh.white: No such file or directory
+mv: rename *h.white.deformed.out to NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/*h.white.deformed.out: No such file or directory
+NOR_BCS001_LOY FREESURFER : Runnung intermediate recon-all steps
+fs-check-version --s NOR_BCS001_LOY --o /var/folders/63/0swzhgln1hn5fy6rz_xd268h0000gn/T//tmp.lHBuCJ
+Sat Feb  4 04:38:00 KST 2023
+
+setenv SUBJECTS_DIR /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer
+cd /Users/JunSeoHwang/diffusion-weighted-imaging/NOR
+/Applications/freesurfer/7.3.2/bin/fs-check-version --s NOR_BCS001_LOY --o /var/folders/63/0swzhgln1hn5fy6rz_xd268h0000gn/T//tmp.lHBuCJ
+-rwxr-xr-x  1 root  wheel  18565 Aug  4  2022 /Applications/freesurfer/7.3.2/bin/fs-check-version
+
+freesurfer-darwin-macOS-7.3.2-20220804-6354275
+$Id$
+Darwin hwangjunseoui-MacBookAir.local 22.2.0 Darwin Kernel Version 22.2.0: Fri Nov 11 02:06:26 PST 2022; root:xnu-8792.61.2~4/RELEASE_ARM64_T8112 arm64
+pid 4389
+Current FS Version freesurfer-darwin-macOS-7.3.2-20220804-6354275
+bstampfile exists /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/scripts/build-stamp.txt
+Subject FS Version: freesurfer-darwin-macOS-7.3.2-20220804-6354275
+No constraints on version because REQ=UnSet and FsVerFile=NotThere
+#@#% fs-check-version match = 1
+fs-check-version Done
+INFO: SUBJECTS_DIR is /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer
+Actual FREESURFER_HOME /Applications/freesurfer/7.3.2
+-rw-rw-r--@ 1 JunSeoHwang  staff  90729 Feb  4 04:37 /Users/JunSeoHwang/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/scripts/recon-all.log
+Darwin hwangjunseoui-MacBookAir.local 22.2.0 Darwin Kernel Version 22.2.0: Fri Nov 11 02:06:26 PST 2022; root:xnu-8792.61.2~4/RELEASE_ARM64_T8112 arm64
+~/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY/mri/transforms ~/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY
+~/diffusion-weighted-imaging/NOR/NOR_BCS001_LOY/Preprocess_Structure/Freesurfer/NOR_BCS001_LOY
