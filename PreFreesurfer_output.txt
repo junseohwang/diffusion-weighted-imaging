@@ -1,0 +1,38 @@
+Processing subject: NOR_BCS001_LOY
+NOR_BCS001_LOY PRE_FREESURFER : NOT PERFORMING GRADIENT DISTORTION CORRECTION
+NOR_BCS001_LOY PRE_FREESURFER: Averaging neither T1 nor T2
+NOR_BCS001_LOY PRE_FREESURFER : Aligning T1w image to 0.7mm MNI T1wTemplate to create native volume space
+Final FOV is:
+0.000000 224.000000 0.000000 320.000000 100.000000 200.000000
+
+NOR_BCS001_LOY PRE_FREESURFER : Performing Brain Extraction using FNIRT-based Masking
+NOR_BCS001_LOY PRE_FREESURFER : NOT PERFORMING GRADIENT DISTORTION CORRECTION
+NOR_BCS001_LOY PRE_FREESURFER: Averaging neither T1 nor T2
+NOR_BCS001_LOY PRE_FREESURFER : Aligning T2w image to 0.7mm MNI T2wTemplate to create native volume space
+Final FOV is:
+0.000000 224.000000 0.000000 320.000000 101.000000 200.000000
+
+NOR_BCS001_LOY PRE_FREESURFER : Performing Brain Extraction using FNIRT-based Masking
+NOR_BCS001_LOY PRE_FREESURFER : Performing T2w to T1w Registration
+Running FAST segmentation
+FLIRT pre-alignment
+Running BBR
+0.213557 0.998093 0.055370 -0.027280 0.000000 -0.056126 0.998037 -0.027778 0.000000 0.025688 0.029256 0.999242 0.000000 4.416722 -4.702225 7.586479 1.000000
+Image Exception : #63 :: No image files match: /T2w_acpc
+Image Exception : #22 :: Failed to read volume /T2w_acpc
+Error : No image files match: /T2w_acpc
+libc++abi: terminating with uncaught exception of type std::runtime_error: Failed to read volume /T2w_acpc
+Error : No image files match: /T2w_acpc
+./JSH_M3_BCS_01_PreFreesurfer.sh: line 12: 12067 Abort trap: 6           ${FSLDIR}/bin/applywarp --rel --interp=spline --in="$t2" --ref="$t1" --premat=${wd_T2T1Reg}/T2w2T1w.mat --out=${wd_T2T1Reg}/T2w2T1w
+NOR_BCS001_LOY PRE_FREESURFER : Performing Bias Field Correction
+0.359140
+0.923724
+.7441540
+NOR_BCS001_LOY PRE_FREESURFER : Performing Atlas Registration to MNI152 (FLIRT and FNIRT)
+NOR_BCS001_LOY PREEFREESURFER PROCESSING COMPLETED
+Processing subject: NOR_BCS002_LKH
+NOR_BCS002_LKH PRE_FREESURFER : NOT PERFORMING GRADIENT DISTORTION CORRECTION
+NOR_BCS002_LKH PRE_FREESURFER: Averaging neither T1 nor T2
+NOR_BCS002_LKH PRE_FREESURFER : Aligning T1w image to 0.7mm MNI T1wTemplate to create native volume space
+Final FOV is:
+0.000000 224.000000 0.000000 320.000000 99.000000 200.000000
