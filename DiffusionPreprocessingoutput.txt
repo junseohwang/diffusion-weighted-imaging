@@ -1,0 +1,477 @@
+Processing subject: NOR_BCS028_JHW
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Copying raw data to working directory
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Copied raw data to working directory
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Total readout time is .031609 secs
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Rescaling series to ensure consistency across baseline intensities
+      Processing NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/RL_BLIP_input
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/RL_BLIP_input Create mean file
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/RL_BLIP_input Get Posbvals from NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/RL_BLIP_input.bval
+          Posbvals: 0 0 0 0 0 0 2000
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/RL_BLIP_input extract all b0s
+          Posbvals p: 0
+          cnt: 0000
+          Posbvals p: 0
+          cnt: 0001
+          Posbvals p: 0
+          cnt: 0002
+          Posbvals p: 0
+          cnt: 0003
+          Posbvals p: 0
+          cnt: 0004
+          Posbvals p: 0
+          cnt: 0005
+          Posbvals p: 2000
+          cnt: 0006
+      Processing NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_BLIP_input
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_BLIP_input Create mean file
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_BLIP_input Get Posbvals from NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_BLIP_input.bval
+          Posbvals: 0 0 0 0 0 0 2000
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_BLIP_input extract all b0s
+          Posbvals p: 0
+          cnt: 0000
+          Posbvals p: 0
+          cnt: 0001
+          Posbvals p: 0
+          cnt: 0002
+          Posbvals p: 0
+          cnt: 0003
+          Posbvals p: 0
+          cnt: 0004
+          Posbvals p: 0
+          cnt: 0005
+          Posbvals p: 2000
+          cnt: 0006
+      Processing NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B1000_input
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B1000_input Create mean file
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B1000_input Get Posbvals from NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B1000_input.bval
+          Posbvals: 0 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B1000_input extract all b0s
+          Posbvals p: 0
+          cnt: 0000
+          Posbvals p: 1000
+          cnt: 0001
+          Posbvals p: 1000
+          cnt: 0002
+          Posbvals p: 1000
+          cnt: 0003
+          Posbvals p: 1000
+          cnt: 0004
+          Posbvals p: 1000
+          cnt: 0005
+          Posbvals p: 1000
+          cnt: 0006
+          Posbvals p: 1000
+          cnt: 0007
+          Posbvals p: 1000
+          cnt: 0008
+          Posbvals p: 1000
+          cnt: 0009
+          Posbvals p: 1000
+          cnt: 0010
+          Posbvals p: 1000
+          cnt: 0011
+          Posbvals p: 1000
+          cnt: 0012
+          Posbvals p: 1000
+          cnt: 0013
+          Posbvals p: 1000
+          cnt: 0014
+          Posbvals p: 1000
+          cnt: 0015
+          Posbvals p: 1000
+          cnt: 0016
+          Posbvals p: 1000
+          cnt: 0017
+          Posbvals p: 1000
+          cnt: 0018
+          Posbvals p: 1000
+          cnt: 0019
+          Posbvals p: 1000
+          cnt: 0020
+      Processing NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B2000_input
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B2000_input Create mean file
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B2000_input Get Posbvals from NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B2000_input.bval
+          Posbvals: 0 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B2000_input extract all b0s
+          Posbvals p: 0
+          cnt: 0000
+          Posbvals p: 2000
+          cnt: 0001
+          Posbvals p: 2000
+          cnt: 0002
+          Posbvals p: 2000
+          cnt: 0003
+          Posbvals p: 2000
+          cnt: 0004
+          Posbvals p: 2000
+          cnt: 0005
+          Posbvals p: 2000
+          cnt: 0006
+          Posbvals p: 2000
+          cnt: 0007
+          Posbvals p: 2000
+          cnt: 0008
+          Posbvals p: 2000
+          cnt: 0009
+          Posbvals p: 2000
+          cnt: 0010
+          Posbvals p: 2000
+          cnt: 0011
+          Posbvals p: 2000
+          cnt: 0012
+          Posbvals p: 2000
+          cnt: 0013
+          Posbvals p: 2000
+          cnt: 0014
+          Posbvals p: 2000
+          cnt: 0015
+          Posbvals p: 2000
+          cnt: 0016
+          Posbvals p: 2000
+          cnt: 0017
+          Posbvals p: 2000
+          cnt: 0018
+          Posbvals p: 2000
+          cnt: 0019
+          Posbvals p: 2000
+          cnt: 0020
+          Posbvals p: 2000
+          cnt: 0021
+          Posbvals p: 2000
+          cnt: 0022
+          Posbvals p: 2000
+          cnt: 0023
+          Posbvals p: 2000
+          cnt: 0024
+          Posbvals p: 2000
+          cnt: 0025
+          Posbvals p: 2000
+          cnt: 0026
+          Posbvals p: 2000
+          cnt: 0027
+          Posbvals p: 2000
+          cnt: 0028
+          Posbvals p: 2000
+          cnt: 0029
+          Posbvals p: 2000
+          cnt: 0030
+      Processing NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B3000_input
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B3000_input Create mean file
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B3000_input Get Posbvals from NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B3000_input.bval
+          Posbvals: 0 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000 3000
+      NOR_BCS028_JHW/Preprocess_Diffusion/rawdata/LR_EMPTY_B3000_input extract all b0s
+          Posbvals p: 0
+          cnt: 0000
+          Posbvals p: 3000
+          cnt: 0001
+          Posbvals p: 3000
+          cnt: 0002
+          Posbvals p: 3000
+          cnt: 0003
+          Posbvals p: 3000
+          cnt: 0004
+          Posbvals p: 3000
+          cnt: 0005
+          Posbvals p: 3000
+          cnt: 0006
+          Posbvals p: 3000
+          cnt: 0007
+          Posbvals p: 3000
+          cnt: 0008
+          Posbvals p: 3000
+          cnt: 0009
+          Posbvals p: 3000
+          cnt: 0010
+          Posbvals p: 3000
+          cnt: 0011
+          Posbvals p: 3000
+          cnt: 0012
+          Posbvals p: 3000
+          cnt: 0013
+          Posbvals p: 3000
+          cnt: 0014
+          Posbvals p: 3000
+          cnt: 0015
+          Posbvals p: 3000
+          cnt: 0016
+          Posbvals p: 3000
+          cnt: 0017
+          Posbvals p: 3000
+          cnt: 0018
+          Posbvals p: 3000
+          cnt: 0019
+          Posbvals p: 3000
+          cnt: 0020
+          Posbvals p: 3000
+          cnt: 0021
+          Posbvals p: 3000
+          cnt: 0022
+          Posbvals p: 3000
+          cnt: 0023
+          Posbvals p: 3000
+          cnt: 0024
+          Posbvals p: 3000
+          cnt: 0025
+          Posbvals p: 3000
+          cnt: 0026
+          Posbvals p: 3000
+          cnt: 0027
+          Posbvals p: 3000
+          cnt: 0028
+          Posbvals p: 3000
+          cnt: 0029
+          Posbvals p: 3000
+          cnt: 0030
+          Posbvals p: 3000
+          cnt: 0031
+          Posbvals p: 3000
+          cnt: 0032
+          Posbvals p: 3000
+          cnt: 0033
+          Posbvals p: 3000
+          cnt: 0034
+          Posbvals p: 3000
+          cnt: 0035
+          Posbvals p: 3000
+          cnt: 0036
+          Posbvals p: 3000
+          cnt: 0037
+          Posbvals p: 3000
+          cnt: 0038
+          Posbvals p: 3000
+          cnt: 0039
+          Posbvals p: 3000
+          cnt: 0040
+          Posbvals p: 3000
+          cnt: 0041
+          Posbvals p: 3000
+          cnt: 0042
+          Posbvals p: 3000
+          cnt: 0043
+          Posbvals p: 3000
+          cnt: 0044
+          Posbvals p: 3000
+          cnt: 0045
+          Posbvals p: 3000
+          cnt: 0046
+          Posbvals p: 3000
+          cnt: 0047
+          Posbvals p: 3000
+          cnt: 0048
+          Posbvals p: 3000
+          cnt: 0049
+          Posbvals p: 3000
+          cnt: 0050
+          Posbvals p: 3000
+          cnt: 0051
+          Posbvals p: 3000
+          cnt: 0052
+          Posbvals p: 3000
+          cnt: 0053
+          Posbvals p: 3000
+          cnt: 0054
+          Posbvals p: 3000
+          cnt: 0055
+          Posbvals p: 3000
+          cnt: 0056
+          Posbvals p: 3000
+          cnt: 0057
+          Posbvals p: 3000
+          cnt: 0058
+          Posbvals p: 3000
+          cnt: 0059
+          Posbvals p: 3000
+          cnt: 0060
+          Posbvals p: 3000
+          cnt: 0061
+          Posbvals p: 3000
+          cnt: 0062
+          Posbvals p: 3000
+          cnt: 0063
+          Posbvals p: 3000
+          cnt: 0064
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Extracting b0s from PE_Positive volumes,  writing acqparams.txt, and creating series_index.txt (need to work on index file)
+      Extracted b0 and Wrote acqparams.txt from PE_Positive volume
+      Created series_index.txt from PE_Positive volumes
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Extracting b0s from PE_Negative volumes,  writing acqparams.txt, and creating series_index.txt (need to work on index file)
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : b0 extraction and acqparam.txt completed : to be used for topup/eddy
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Extracted b0s, wrote acqparams.txt, and created series_index.txt from PE_Positive and PE_Negative volumes (need to work on index file)
+NOR_BCS028_JHW Difussion Preprocessing : Merging Pos and Neg Images
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Pos and Neg Images Merged
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Slice Number 66  is Even
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Perform Final Merge
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Final Merge Completed
+NOR_BCS028_JHW Diffusion Basic Preprocessing : Moving Files to Appropriate Directories
+NOR_BCS028_JHW Diffusion Topup Processing : Perform Topup
+SSD = 601.377   n = 90365       Reg = 0 Cost = 601.377
+SSD = 349.505   n = 90362       Reg = 26.528    Cost = 376.033
+SSD = 272.892   n = 90085       Reg = 45.9642   Cost = 318.857
+SSD = 254.661   n = 89977       Reg = 56.256    Cost = 310.917
+SSD = 250.259   n = 89944       Reg = 59.4161   Cost = 309.676
+SSD = 249.104   n = 89944       Reg = 60.2738   Cost = 309.378
+***Going to next resolution level***
+SSD = 383.434   n = 89944       Reg = 20.9387   Cost = 404.372
+SSD = 277.017   n = 90183       Reg = 46.4857   Cost = 323.503
+SSD = 237.694   n = 90356       Reg = 63.0547   Cost = 300.748
+SSD = 224.056   n = 90365       Reg = 70.397    Cost = 294.453
+SSD = 219.104   n = 90365       Reg = 73.3964   Cost = 292.501
+SSD = 217.252   n = 90365       Reg = 74.567    Cost = 291.819
+***Going to next resolution level***
+SSD = 454.912   n = 90365       Reg = 15.6322   Cost = 470.544
+SSD = 323.521   n = 90365       Reg = 39.2344   Cost = 362.755
+SSD = 284.108   n = 90365       Reg = 53.2405   Cost = 337.348
+SSD = 272.171   n = 90365       Reg = 59.1666   Cost = 331.338
+SSD = 268.037   n = 90365       Reg = 61.568    Cost = 329.605
+SSD = 266.447   n = 90365       Reg = 62.5979   Cost = 329.045
+***Going to next resolution level***
+SSD = 327.131   n = 90365       Reg = 11.5351   Cost = 338.666
+SSD = 284.821   n = 90365       Reg = 21.104    Cost = 305.925
+SSD = 271.626   n = 90365       Reg = 27.313    Cost = 298.939
+SSD = 268.577   n = 90365       Reg = 29.3515   Cost = 297.928
+SSD = 267.793   n = 90365       Reg = 29.9323   Cost = 297.726
+SSD = 267.515   n = 90365       Reg = 30.143    Cost = 297.658
+***Going to next resolution level***
+SSD = 268.423   n = 90365       Reg = 10.6879   Cost = 279.111
+SSD = 202.313   n = 90365       Reg = 11.5085   Cost = 213.821
+SSD = 190.105   n = 90365       Reg = 15.1233   Cost = 205.229
+SSD = 188.227   n = 90365       Reg = 16.2421   Cost = 204.469
+SSD = 187.823   n = 90365       Reg = 16.5134   Cost = 204.336
+SSD = 187.676   n = 90365       Reg = 16.6121   Cost = 204.288
+***Going to next resolution level***
+SSD = 451.18    n = 753044      Reg = 32.9111   Cost = 484.091
+SSD = 450.033   n = 753044      Reg = 32.8312   Cost = 482.864
+SSD = 447.99    n = 753044      Reg = 32.6899   Cost = 480.68
+SSD = 444.655   n = 753044      Reg = 32.4624   Cost = 477.117
+SSD = 439.782   n = 753044      Reg = 32.1393   Cost = 471.921
+SSD = 433.232   n = 753044      Reg = 31.7276   Cost = 464.959
+SSD = 424.771   n = 753044      Reg = 31.2418   Cost = 456.013
+SSD = 414.401   n = 753044      Reg = 30.7363   Cost = 445.138
+SSD = 407.581   n = 753044      Reg = 30.4995   Cost = 438.081
+SSD = 399.25    n = 753044      Reg = 30.2943   Cost = 429.545
+SSD = 391.011   n = 753044      Reg = 30.3503   Cost = 421.361
+***Going to next resolution level***
+SSD = 469.312   n = 753044      Reg = 4.30913   Cost = 473.621
+SSD = 468.522   n = 753044      Reg = 4.30335   Cost = 472.825
+SSD = 467.056   n = 753044      Reg = 4.29284   Cost = 471.349
+SSD = 464.47    n = 753044      Reg = 4.27499   Cost = 468.745
+SSD = 460.153   n = 753044      Reg = 4.24726   Cost = 464.4
+SSD = 453.163   n = 753044      Reg = 4.20779   Cost = 457.37
+SSD = 442.481   n = 753044      Reg = 4.16054   Cost = 446.642
+SSD = 428.056   n = 753044      Reg = 4.12736   Cost = 432.183
+SSD = 417.022   n = 753044      Reg = 4.14847   Cost = 421.171
+SSD = 405.972   n = 753044      Reg = 4.19299   Cost = 410.165
+SSD = 391.858   n = 753044      Reg = 4.37299   Cost = 396.231
+***Going to next resolution level***
+SSD = 391.861   n = 753044      Reg = 0.0437302 Cost = 391.905
+SSD = 391.626   n = 753044      Reg = 0.0437142 Cost = 391.67
+SSD = 391.246   n = 753044      Reg = 0.0436912 Cost = 391.29
+SSD = 390.715   n = 753044      Reg = 0.0436682 Cost = 390.759
+SSD = 390.067   n = 753044      Reg = 0.0436651 Cost = 390.111
+SSD = 389.143   n = 753044      Reg = 0.0437153 Cost = 389.187
+SSD = 387.33    n = 753044      Reg = 0.0438659 Cost = 387.374
+SSD = 384.213   n = 753044      Reg = 0.044223  Cost = 384.257
+SSD = 381.451   n = 753044      Reg = 0.0447766 Cost = 381.496
+SSD = 376.759   n = 753044      Reg = 0.0457157 Cost = 376.805
+SSD = 369.609   n = 753044      Reg = 0.0479306 Cost = 369.657
+SSD = 363.501   n = 753044      Reg = 0.0509219 Cost = 363.552
+SSD = 357.262   n = 753044      Reg = 0.0561625 Cost = 357.318
+SSD = 354.171   n = 753044      Reg = 0.0608343 Cost = 354.232
+SSD = 352.201   n = 753044      Reg = 0.0658619 Cost = 352.267
+SSD = 350.6     n = 753044      Reg = 0.0711327 Cost = 350.671
+SSD = 349.14    n = 753044      Reg = 0.0764763 Cost = 349.217
+SSD = 347.561   n = 753044      Reg = 0.0827631 Cost = 347.644
+SSD = 346.288   n = 753044      Reg = 0.0876671 Cost = 346.375
+SSD = 344.806   n = 753044      Reg = 0.0935117 Cost = 344.899
+SSD = 343.799   n = 753044      Reg = 0.096938  Cost = 343.896
+***Going to next resolution level***
+SSD = 343.799   n = 753044      Reg = 0.00193876        Cost = 343.801
+SSD = 343.737   n = 753044      Reg = 0.00193818        Cost = 343.739
+SSD = 343.634   n = 753044      Reg = 0.00193716        Cost = 343.636
+SSD = 343.478   n = 753044      Reg = 0.00193545        Cost = 343.48
+SSD = 343.264   n = 753044      Reg = 0.00193267        Cost = 343.266
+SSD = 342.933   n = 753044      Reg = 0.00192751        Cost = 342.935
+SSD = 342.3     n = 753044      Reg = 0.00191699        Cost = 342.302
+SSD = 341.216   n = 753044      Reg = 0.0018985 Cost = 341.218
+SSD = 340.385   n = 753044      Reg = 0.00188222        Cost = 340.387
+SSD = 338.592   n = 753044      Reg = 0.00185007        Cost = 338.594
+SSD = 336.547   n = 753044      Reg = 0.00180965        Cost = 336.549
+SSD = 334.311   n = 753044      Reg = 0.00176218        Cost = 334.313
+SSD = 332.829   n = 753044      Reg = 0.0017247 Cost = 332.831
+SSD = 331.898   n = 753044      Reg = 0.00169593        Cost = 331.9
+SSD = 331.554   n = 753044      Reg = 0.00168373        Cost = 331.556
+SSD = 331.206   n = 753044      Reg = 0.00167449        Cost = 331.207
+SSD = 330.937   n = 753044      Reg = 0.00167254        Cost = 330.939
+SSD = 330.656   n = 753044      Reg = 0.00167884        Cost = 330.658
+SSD = 330.332   n = 753044      Reg = 0.0016961 Cost = 330.334
+SSD = 330.005   n = 753044      Reg = 0.00172619        Cost = 330.007
+SSD = 329.574   n = 753044      Reg = 0.00178278        Cost = 329.575
+NOR_BCS028_JHW Diffusion Topup Processing : Perform Applytopup
+NOR_BCS028_JHW Diffusion Topup Processing : Perform BET on Applytopup Output
+NOR_BCS028_JHW Diffusion Eddy Processing : Perform Eddy
+          FSL version in use is 6.0.1 (for FSL 5.0.9 and above, can run GPU-enabled version of Eddy)
+NOR_BCS028_JHW Diffusion Post Eddy Processing : Not Combining Eddy Output (Combine Data Flag set to 2)
+NOR_BCS028_JHW Diffusion Post Eddy Processing : Not correcting for gradient nonlinearities
+NOR_BCS028_JHW Diffusion Post Eddy Processing : Removing Negative Intensity Values from Final Eddy Data
